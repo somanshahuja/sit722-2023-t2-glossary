@@ -10,16 +10,16 @@
     <p>Welcome to my website showing a collection of <%= sub %> terms and their brief descriptions.</p>
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-1">
           id#
         </div>
-        <div class="col">
+        <div class="col-2">
           Term
         </div>
-        <div class="col">
+        <div class="col-5">
           Description
         </div>
-        <div class="col">
+        <div class="col-4">
           References
         </div>
       </div>
@@ -27,16 +27,16 @@
       <% names.forEach((item)=> { %> 
 
       <div class="row">
-        <div class="col">
+        <div class="col-1">
           <%= item.id %>
         </div>
-        <div class="col">
+        <div class="col-2">
           <%= item.term %>
         </div>
-        <div class="col">
+        <div class="col-5">
           <%= item.desc %>
         </div>
-        <div class="col">
+        <div class="col-4">
           <%= item.ref %>
         </div>
       </div>
