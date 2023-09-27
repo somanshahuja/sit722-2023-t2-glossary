@@ -43,7 +43,16 @@ const namesList = [
   {'id':'38', 'term' : 'Canary release' , 'desc' : 'A deployment technique that gradually exposes a new version of an application to a subset of users or traffic before rolling it out fully. ' ,  'ref' : 'https://www.jetbrains.com/teamcity/ci-cd-guide/concepts/canary-release/#'},
   {'id':'39', 'term' : 'High availability' , 'desc' : 'The ability of a system to remain operational and accessible for users even during hardware or software failures.' ,  'ref' : 'https://medium.com/@navya.cloudops/devops-zero-to-hero-day-21-high-availability-disaster-recovery-48653a9442b0#'},
   {'id':'40', 'term' : 'Service Level Agreement' , 'desc' : 'A formal commitment outlining the level of service a provider guarantees to deliver to a customer.' ,  'ref' : 'https://aws.amazon.com/devops-guru/sla/'},
- 
+  {'id':'41', 'term' : 'GitOps' , 'desc' : 'A methodology that leverages Git and version control to automate and manage infrastructure and application deployments declaratively.' ,  'ref' : 'https://www.gitops.tech/'},
+  {'id':'42', 'term' : 'SRE(Site Reliability Engineering))' , 'desc' : 'An approach that applies software engineering practices to operations to create scalable and highly reliable software systems.' ,  'ref' : 'https://sre.google/books/'},
+  {'id':'43', 'term' : 'Scrum' , 'desc' : 'An Agile framework for managing projects with a focus on frequent delivery and continuous improvement.' ,  'ref' : 'Schwaber, K., & Sutherland, J. (2017). The Scrum Guide. Scrum.org.'},
+  {'id':'44', 'term' : 'Waterfall Model' , 'desc' : 'A linear software development lifecycle approach with sequential phases like requirements, design, implementation, testing, deployment, and maintenance.' ,  'ref' : 'Royce, W. W. (1970). Managing the development of large software systems: concepts and techniques. In Proceedings of IEEE WESCON.'},
+  {'id':'45', 'term' : 'Immutable infrastructure' , 'desc' : 'Treating infrastructure as disposable and recreating it for each deployment rather than making changes to running systems.' ,  'ref' : 'https://www.codecentric.de/en/2013/10/immutable-infrastructure'},
+  {'id':'46', 'term' : 'Puppet' , 'desc' : 'An automation tool for managing and configuring infrastructure.' ,  'ref' : 'https://www.puppet.com/'},
+  {'id':'47', 'term' : 'Chef' , 'desc' : 'An automation platform used for managing infrastructure as code.' ,  'ref' : 'https://www.chef.io/'},
+  {'id':'48', 'term' : 'Grafana' , 'desc' : 'An open-source analytics and monitoring platform integrating with various data sources.' ,  'ref' : 'https://grafana.com/'},
+  {'id':'49', 'term' : 'Rollback' , 'desc' : 'Reverting to a previous version or state of a system or application' ,  'ref' : 'https://www.techopedia.com/definition/9229/rollback'},
+  {'id':'50', 'term' : 'Dark Launching' , 'desc' : 'The practice of releasing a feature to a subset of users without making it visible to all users.' ,  'ref' : 'https://www.split.io/glossary/dark-launch/#'},
 ];
 
 /* GET home page. */
